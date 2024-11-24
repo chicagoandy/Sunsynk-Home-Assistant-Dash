@@ -2,7 +2,7 @@ substitutions:
   settings_skipped_updates: "30"
   devicename: "inverter"
   device_description: "Inverter RS485 Logger"
-  friendly_name: "SunSynk"
+  friendly_name: "Sol-Ark"
 
 esphome:
   name: $devicename
