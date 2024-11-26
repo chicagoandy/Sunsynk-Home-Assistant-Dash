@@ -58,8 +58,8 @@ time:
      
 uart:
   id: mod_bus
-  tx_pin: GPIO1
-  rx_pin: GPIO3
+  tx_pin: GPIO2  # M5stack Atom S3 + Atomic RS485 base = GPIO6 | Isolated RS485 Grove module = GPIO2
+  rx_pin: GPIO1  # M5stack Atom S3 + Atomic RS485 base = GPIO5 | Isolated RS485 Grove module = GPIO1
   baud_rate: 9600
   stop_bits: 1
  
